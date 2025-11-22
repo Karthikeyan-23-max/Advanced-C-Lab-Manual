@@ -1,10 +1,10 @@
-EXP NO:6 C PROGRAM PRINT THE LOWERCASE ENGLISH WORD CORRESPONDING TO THE NUMBER
+# EXP NO:6 C PROGRAM PRINT THE LOWERCASE ENGLISH WORD CORRESPONDING TO THE NUMBER
 
-Aim:
+## Aim:
 
 To write a C program print the lowercase English word corresponding to the number
 
-Algorithm:
+## Algorithm:
 
 1.	Start
 - Initialize an integer variable n.
@@ -18,7 +18,7 @@ Algorithm:
 -	Default: Print "Greater than 13"
 4.	Exit the program.
  
-Program:
+## Program:
 
 ```
 #include <stdio.h>
@@ -50,23 +50,23 @@ int main() {
 ```
 
 
-Output:
+## Output:
 
 <img width="591" height="244" alt="image" src="https://github.com/user-attachments/assets/ec16c8bd-38ca-4e27-a1fd-7d41d2de434b" />
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
 
 
  
-EXP NO:7 C PROGRAM TO PRINT TEN SPACE-SEPARATED INTEGERS    
+# EXP NO:7 C PROGRAM TO PRINT TEN SPACE-SEPARATED INTEGERS    
 IN A SINGLE  LINE DENOTING THE FREQUENCY OF EACH DIGIT FROM 0 TO 9 .
 
-Aim:
+## Aim:
 
 To write a C program to print ten space-separated integers in a single line denoting the frequency of each digit from 0 to 9.
-Algorithm:
+## Algorithm:
 1.	Start
 2.	Declare char array a[50] outer loop for each digit from 0 to 9
 3.	Initialize counter c to 0
@@ -74,7 +74,7 @@ Algorithm:
 5.	Increment h to move to the next digit
 6.	End
  
-Program:
+## Program:
 
 ```
 #include <stdio.h>
@@ -99,7 +99,7 @@ int main() {
 ```
 
 
-Output:
+## Output:
 
 
 <img width="711" height="198" alt="image" src="https://github.com/user-attachments/assets/451f9441-f97f-4974-840d-a8844597a829" />
@@ -107,18 +107,18 @@ Output:
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
 
 
-EXP NO:8 C PROGRAM TO PRINT ALL OF ITS PERMUTATIONS IN STRICT LEXICOGRAPHICAL ORDER.
+# EXP NO:8 C PROGRAM TO PRINT ALL OF ITS PERMUTATIONS IN STRICT LEXICOGRAPHICAL ORDER.
 
-Aim:
+## Aim:
 
 To write a C program to print all of its permutations in strict lexicographical order.
 
 
-Algorithm:
+## Algorithm:
 
 1.	Start
 2.	Declare variables s (pointer to an array of strings) and n (number of strings)
@@ -132,7 +132,7 @@ Read the number of strings n from the user Dynamically allocate memory for each 
 Free the memory allocated for each string in s Free the memory allocated for s
 7.	End
  
-Program:
+## Program:
 
 ```
 
@@ -189,25 +189,25 @@ int main() {
 
 
 
-Output:
+## Output:
 
 <img width="489" height="359" alt="image" src="https://github.com/user-attachments/assets/e1242ea2-ce8f-4255-91ea-f194ead7894a" />
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
 
 
  
-EXP NO:9 C PROGRAM PRINT A PATTERN OF NUMBERS FROM 1 TO N AS
+# EXP NO:9 C PROGRAM PRINT A PATTERN OF NUMBERS FROM 1 TO N AS
 SHOWN BELOW.
 
-Aim:
+## Aim:
 
 To write a C program to print a pattern of numbers from 1 to n as shown below.
 
-Algorithm:
+## Algorithm:
 1.	Start
 2.	Declare integer variables n, i, j, min
 3.	Read the value of n from the user
@@ -216,7 +216,7 @@ Algorithm:
 6.	Calculate min as the minimum distance to the borders
 7.	End
  
-Program:
+## Program:
 
 ```
 #include <stdio.h>
@@ -247,24 +247,24 @@ int main() {
 
 
 
-Output:
+## Output:
 
 <img width="741" height="958" alt="image" src="https://github.com/user-attachments/assets/94d5b226-a7f8-4c26-bbf7-9135c907e747" />
 
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
 
 
-EXP NO:10 Given a five digit integer n, print the sum of its digits.
+# EXP NO:10 Given a five digit integer n, print the sum of its digits.
 
-Aim:
+## Aim:
 
 To Write Given a five digit integer n, print the sum of its digits.
 
-Algorithm:
+## Algorithm:
 
 1.Input n.
 2.Initialize sum = 0.
@@ -274,7 +274,7 @@ Algorithm:
   n = n / 10 (integer division)
 4.Print sum.
 
-Program:
+## Program:
 
 ```
 #include <stdio.h>
@@ -298,10 +298,10 @@ int main() {
 
 
 
-Output:
+## Output:
 
 <img width="433" height="193" alt="image" src="https://github.com/user-attachments/assets/a103a00e-4b11-4420-a3bd-e665215ed944" />
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
